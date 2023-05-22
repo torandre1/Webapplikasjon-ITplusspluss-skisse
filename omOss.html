@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="Hjemmeside.css">
+    <title>Hjemmeside</title>
+</head>
+<body>
+
+    <div class="main"> <!--Div main sørger for en padding rundt hele siden-->
+
+<!-- 
+    Navigeringsmeny hentet fra Bootstrap:
+    https://getbootstrap.com/docs/5.0/components/navbar/    
+-->
+<!--navbar-->
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">IT++</a> <!--Knapp med logo og link til index-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="omOss.html">Om oss</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontaktoss.html">Kontakt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profil.html">Min profil</a>
+        </li class="nav-item">
+        <li class="nav-item">
+          <a class="nav-link" href="profil.html">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Annonse.html">Annonse</a>
+        </li>
+          <a class="nav-link"><button class="btn btn-success" href="loggInn.html">Logg inn</button></a>
+          <a class="nav-link"><button class="btn btn-primary" href="registrer.html"  >Registrer</button></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="wrapper2">
+    <div class="col1"><img src="images/it.png" alt="logo"></div>
+    <div class="col1">
+      <h1>Om IT++</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam beatae fuga quo nostrum adipisci aut obcaecati quisquam harum vitae, eaque eos quas optio rem aliquid quidem quos tenetur reprehenderit totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consequuntur voluptas deleniti voluptatum aliquam reiciendis eligendi, dignissimos enim excepturi facilis error nesciunt ipsum minima molestias consequatur corporis hic? Aut, hic!Lorem</p>
+    </div>
+
+  </div>
+
+
+
+
+<!--wrapper3 = artikler+ footer-->
+<div class="wrapper3overskrift"><h1>Artikler</h1></div>
+<div class="clearfix">
+<div class = "wrapper3">
+
+    <a href="artikkel1.html"><div class="artikkel">
+        <h2>Hvordan kommunisere med andre brukere</h2>
+        <p>Hvordan skal du gå frem når du kontakter en potensiell frilanser eller arbeidsgiver?</p>
+        <img src="images/artikkel1.jpg" alt="kommunikasjon" class="responsiveimg" height="200" width="300">
+    </div></a>
+    <a href="artikkel2.html"><div class="artikkel">
+        <h2>Hvordan komme i gang som frilanser?</h2>
+        <p>Her finner du 6 enkle steg for å komme i gang:</p>
+        <img src="images/frilanser.jpg" alt="kommunikasjon" class="responsiveimg" height="200" width="300">
+    </div></a>
+    <a href="artikkel3.html"><div class="artikkel">
+        <h2>Slik lager du en god profil</h2>
+        <p>Hva skal til for å lage en god profil for at oppdragsgivere skal velge deg</p>
+        <img src="images/profil.jpg" alt="kommunikasjon" class="responsiveimg" height="200" width="300">
+    </div></a>
+</div>
+</div>
+
+    <div class="footer">
+        <p>H2020-V2021 IT++ | Applikasjonutvikling for web(APP2000) prosjekt, gruppe 4 | Cecille, Khaled, Maria, Tor André</p>
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

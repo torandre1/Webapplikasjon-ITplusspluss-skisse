@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+  <!-- Main design css-->
+  <link rel="stylesheet" href="profil.css">
+  <title>Profil</title>
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">IT++</a> <!--Knapp med logo og link til index-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="omOss.html">Om oss</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontaktoss.html">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profil.html">Min profil</a>
+          </li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="profil.html">Profil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Annonse.html">Annonse</a>
+          </li>
+            <a class="nav-link"><button class="btn btn-success" href="loggInn.html">Logg inn</button></a>
+            <a class="nav-link"><button class="btn btn-primary" href="registrer.html"  >Registrer</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Box1 i wrap-->
+  <div class="box1">
+    <img src="https://www.flaticon.com/premium-icon/icons/svg/1829/1829913.svg" alt="bilde" width="50" ; height="50">
+  </div>
+
+  <!--Bakgrunn-->
+  <div class="box2">
+    <div class="wrap">
+
+      <!--Starter med container, deler opp alle seksjoner i en rad, etterfulgt av kolonner.
+      Setter profil, nettverk, kompetanse og om meg til lengde lik halvparten av Kontaktinfo-kolonnen-->
+
+      <div class="container">
+        <div class="row">
+
+          <!--Card Profil-->
+          <div class="col-md-4">
+            <div class="card bg-light mt-3">
+              <div class="card-body text-center">
+                <div class="card-header mb-3">
+                  <h4>Profil</h4>
+                </div>
+                <img src="images/profil.png" alt="Profil" width="150">
+                <h4>Navn Navnesen</h4>
+                <p class="card-text text-secondary">Full Stack Utvikler</p>
+                <p class="card-text text-secondary">Midt-Telemark, <br>Vestfold og Telemark, Norge </p>
+                <input type="submit" class="btn btn-info" value="Følg">
+                <input type="submit" class="btn btn-outline-info" value="Melding">
+              </div>
+            </div>
+          </div>
+          <!--Card Profil slutt-->
+
+
+          <!--Card Kontaktinfo-->
+          <!--lengden blir dobbelt så lang som Profil og Nettverk-->
+          <div class="col-md-8">
+            <div class="card bg-light mt-3">
+              <div class="card-body">
+
+                <div class="card-header text-center mb-3">
+                  <h4>Kontaktinfo</4>
+                </div>
+                <!--Rad 1-->
+                <div class="row">
+                  <!--Deler opp i to kolonner-->
+                  <div class="col-sm-3">
+                    <h6>Fornavn</h6>
+                  </div>
+                  <div class="col-sm-9 text-secondary">Navn</div>
+                </div>
+                <hr>
+                <!--Rad 2-->
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h6>Etternavn</h6>
+                  </div>
+                  <div class="col-sm-9 text-secondary">Navnesen</div>
+                </div>
+                <hr>
+                <!--Rad 3-->
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h6>Adresse</h6>
+                  </div>
+                  <div class="col-sm-9 text-secondary">Sisjordvegen 5, 3803 Bø</div>
+                </div>
+                <hr>
+                <!--Rad 4-->
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h6>Tlf</h6>
+                  </div>
+                  <div class="col-sm-9 text-secondary">99 88 77 66</div>
+                </div>
+                <hr>
+                <!--Rad 5-->
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h6>E-post</h6>
+                  </div>
+                  <div class="col-sm-9 text-secondary"><a href="mailto:mail@gmail.com">mail@gmail.com</a></div>
+                </div>
+                <hr>
+
+              </div>
+            </div>
+          </div>
+          <!--Card Kontaktinfo slutt-->
+
+
+          <!--Card Nettverk-->
+          <div class="col-md-4">
+            <div class="card bg-light mt-3">
+              <div class="card-body text-center">
+                <div class="card-header mb-3">
+                  <h4>Nettverk</h4>
+                </div>
+                <!--Rad 1-->
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h4><i class="fas fa-globe"></i></h4>
+                  </div>
+                  <div class="col-sm-9 text-secondary"><a href="https://www.brukernavn.no/">www.brukernavn.no</a></div>
+                </div>
+                <hr>
+                <!--Rad 2-->
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h4><i class="fab fa-github-square"></i></h4>
+                  </div>
+                  <div class="col-sm-9 text-secondary">brukernavn</div>
+                </div>
+                <hr>
+                <!--Rad 3-->
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h4><i class="fab fa-linkedin"></i></h4>
+                  </div>
+                  <div class="col-sm-9 text-secondary">brukernavn</div>
+                </div>
+                <hr>
+                <!--Rad 3-->
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h4><i class="fab fa-facebook-square"></i></h4>
+                  </div>
+                  <div class="col-sm-9 text-secondary">brukernavn</div>
+                </div>
+                <hr>
+
+              </div>
+            </div>
+          </div>
+          <!--Card Nettverk slutt-->
+
+
+          <!--Card Kompetanse-->
+          <div class="col-md-4">
+            <div class="card bg-light mt-3">
+              <div class="card-body text-center">
+                <div class="card-header mb-3 text-center">
+                  <h4>Kompetanse</h4>
+                </div>
+                <p class="mb-0">UX Design</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <p class="mb-0">App Utvikling</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <p class="mb-0">Løsningsarkitektur</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <p class="mb-0">Databasedesign</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <p class="mb-0">Leder</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>               
+                <input type="submit" class="btn btn-info" value="Last ned CV">
+
+              </div>
+            </div>
+          </div>
+          <!--Card Kompetanse slutt-->
+
+
+          <!--Card Om meg-->
+          <div class="col-md-4">
+            <div class="card bg-light mt-3">
+              <div class="card-body">
+                <div class="card-header text-center mb-3">
+                  <h4>Om meg</h4>
+                </div>
+                <p class="fst-italic">Her skal jeg skrive litt om meg selv. Joda jauda, håssen ere ikkje. Hvorfor funker
+                  ikke font-italic da.
+                  Må ikke bli for lang tekst, det skal kun være en kort tekst dette her. Kanskje littttt lenger da.
+                  Jaja. Må nok litt lenger.
+                  Skrive litt om hva jeg brenner for og hva jeg kan best kanskje. Hjelp,CV har jeg glemt, hvor skal den
+                  være da. må nesten være
+                  under kompetanse den da. Vil gjerne ha det font font-italic da. Hjelp. W3Schools er ikke oppdatert.
+                  Den går etter Bootstrap 4 den.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Card Om meg slutt-->
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!--Box 3 i wrap-->
+  <div class="box3">
+    <p>© 2021 it++</p>
+  </div>
+
+
+</body>

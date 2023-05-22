@@ -1,0 +1,73 @@
+body {
+
+}
+
+.main{
+    margin: 0em 10% 0em 10%;
+    border: solid black;
+}
+
+
+/* navbar */
+.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Login */
+
+
+/*Kategori*/
+.btn-kategori {
+    padding: 50px;
+    margin: 10px;
+    background-color:white;
+    border: solid blue;
+    border-radius: 1em;
+}
+
+
+/* grid */
+/*.reponsiveimg {
+    max-width: 300px;
+    max-height: 200px;
+    width: 100%;
+    height: auto;
+}*/
+
+.wrapper2{
+    display:grid;
+    height: 50vh;
+    grid-template-columns: 50% 50%;
+}
+
+.wrapper3{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap:1em;
+    padding:1em;
+    
+}
+.wrapper3overskrift {
+    text-align: center;
+    background-color: lightsteelblue;
+}
+.artikkel {
+    border-radius: 5px; 
+    padding: 1em 2em 2em 1em;
+    background-color: lightblue;
+}
+.artikkel:hover {
+    box-shadow: 5px 5px grey;
+    cursor: pointer;
+}
+.artikkel:a {
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: #f2f2f2;
+    padding:1em;
+}
